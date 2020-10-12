@@ -1,8 +1,10 @@
 # aws-lambda-lxml
 
-AWS Lambda precomiled binaries for lxml built for python 2.7 and python 3.6 runtimes.
+AWS Lambda precomiled binaries for lxml built for python 2.7, python 3.6 and python 3.8 runtimes.
 
 `libxml2-dev` and `libxslt-dev` are not needed as they are included by default in the machines that run lambdas.
+
+If you are using latest aws python lambda environment you should copy lxml folder in your root zip file.
 
 ## Example usage
 
